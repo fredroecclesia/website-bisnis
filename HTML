@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Digital Service Agency</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HERO -->
+<header class="hero fade">
+  <h1>Bangun Website Profesional untuk Bisnismu</h1>
+  <p>Landing page modern, cepat, dan siap menghasilkan pelanggan.</p>
+  <a class="btn" href="#order">Mulai Sekarang</a>
+</header>
+
+<!-- FITUR -->
+<section class="section fade">
+  <h2>Kenapa Pilih Kami?</h2>
+  <div class="grid">
+    <div class="card">🚀 Fast Website</div>
+    <div class="card">📱 Mobile Friendly</div>
+    <div class="card">🎨 Modern Design</div>
+    <div class="card">🔍 SEO Ready</div>
+  </div>
+</section>
+
+<!-- CARA KERJA -->
+<section class="section dark fade">
+  <h2>Cara Kerja</h2>
+  <div class="grid">
+    <div class="card">1. Pilih Paket</div>
+    <div class="card">2. Order & Payment</div>
+    <div class="card">3. Website Jadi</div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="section fade">
+  <h2>Paket Harga</h2>
+  <div class="grid">
+    <div class="card price">
+      <h3>Basic</h3>
+      <p>Rp 99.000</p>
+      <button class="btn" onclick="bayar('basic')">Pilih</button>
+    </div>
+
+    <div class="card price highlight">
+      <h3>Pro</h3>
+      <p>Rp 199.000</p>
+      <button class="btn" onclick="bayar('pro')">Pilih</button>
+    </div>
+
+    <div class="card price">
+      <h3>Premium</h3>
+      <p>Rp 399.000</p>
+      <button class="btn" onclick="bayar('premium')">Pilih</button>
+    </div>
+  </div>
+</section>
+
+<!-- ORDER FORM -->
+<section id="order" class="section dark fade">
+  <h2>Form Order</h2>
+
+  <div class="form-box">
+    <input id="nama" placeholder="Nama kamu">
+    <input id="email" placeholder="Email">
+    <input id="paket" placeholder="Paket (Basic / Pro / Premium)">
+    <textarea id="catatan" placeholder="Catatan tambahan"></textarea>
+
+    <button class="btn" onclick="kirimOrder()">Kirim Order</button>
+  </div>
+</section>
+
+<!-- PAYMENT -->
+<section class="section fade">
+  <h2>Pembayaran</h2>
+
+  <div class="card">
+    <p>Bayar via QRIS atau Midtrans</p>
+    <img src="qris.png" width="220" style="border-radius:12px;">
+    <p style="opacity:.7">Scan QRIS untuk pembayaran manual</p>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta fade">
+  <h2>Butuh bantuan?</h2>
+  <a class="btn" href="https://wa.me/628xxxxxxxxxx">Chat WhatsApp</a>
+</section>
+
+<footer>
+  <p>© 2026 Digital Service</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
