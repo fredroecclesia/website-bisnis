@@ -11,7 +11,7 @@ Email: ${email}%0A
 Paket: ${paket}%0A
 Catatan: ${catatan}`;
 
-  window.open(`https://wa.me/628xxxxxxxxxx?text=${msg}`, "_blank");
+  window.open(`https://wa.me/628129145169?text=${msg}`, "_blank");
 }
 
 // 💳 PAYMENT SYSTEM (MIDTRANS / QRIS READY)
